@@ -1,0 +1,45 @@
+1,George,,Washington,(1789-1797),https://www.biography.com/.image/c_fill%2Ccs_srgb%2Cg_face%2Ch_300%2Cq_80%2Cw_300/MTIwNjA4NjM0MDA1MzkwODYw/george-washington-9524786-1-402.jpg,Independent,didn't seek re-election
+2,John,,Adams,(1797-1801),https://www.biography.com/.image/c_fill%2Ccs_srgb%2Cg_face%2Ch_300%2Cq_80%2Cw_300/MTE1ODA0OTcxMjc3MzIxNzQx/john-adams-37967-1-402.jpg,Federalist,lost re-election
+3,Thomas,,Jefferson,(1801-1809),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-TJ100.jpg,Democratic-Republican,didn't seek re-election
+4,James,,Madison,(1809-1817),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP04MAD.jpg,Democratic-Republican,didn't seek re-election
+5,James,,Monroe,(1817-1825),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP05MON.jpg,Democratic-Republican,didn't seek re-election
+6,John,Quincy,Adams,(1825-1829),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP06ADA.jpg,Democratic-Republican,lost re-election
+7,Andrew,,Jackson,(1829-1837),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP07JAC.jpg,Democrat,didn't seek re-election
+8,Martin,,Van Buren,(1837-1841),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP08BUR-300x300.jpg,Democrat,lost re-election
+9,William,Henry,Harrison,(1841),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP09WHH.jpg,Whig,died in office
+10,John,,Tyler,(1841-1845),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP10JT.jpg,Whig,didn't seek re-election
+11,James,Knox,Polk,(1845-1849),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-C091PP11KP.jpg,Democrat,didn't seek re-election
+12,Zachary,,Taylor,(1849-1850),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP12ZT.jpg,Whig,died in office
+13,Millard,,Fillmore,(1850-1853),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP13MF.jpg,Whig,didn't seek re-election
+14,Franklin,,Pierce,(1853-1857),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP14FP.jpg,Democrat,didn't seek re-election
+15,James,,Buchanan,(1857-1861),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP15JB.jpg,Democrat,didn't seek re-election
+16,Abraham,,Lincoln,(1861-1865),https://www.presidentialelection.com/wp-content/uploads/2017/03/LINCOLN208.jpg,Republican,assassinated
+17,Andrew,,Johnson,(1865-1869),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP17AJ.jpg,Democrat,didn't seek re-election
+18,Ulysses,Simpson,Grant,(1869-1877),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP18USG.jpg,Republican,didn't seek re-election
+19,Rutherford,Birchard,Hayes,(1877-1881),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP19RBH.jpg,Republican,didn't seek re-election
+20,James,Abram,Garfield,(1881),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP20JG.jpg,Republican,assassinated
+21,Chester,Alan,Arthur,(1881-1885),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPAUTHUR.jpg,Republican,didn't seek re-election 
+22,Grover,,Cleveland,(1885-1889),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPCLEVELAND1.jpg,Democrat,lost re-election
+23,Benjamin,,Harrison,(1889-1893),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPHARRISON.jpg,Republican,lost re-election
+24,Grover,,Cleveland,(1893-1897),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPCLEVELAND1.jpg,Democrat,didn't seek re-election
+25,William,,McKinley,(1897-1901),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPMCKINLEY.jpg,Republican,assassinated
+26,Theodore,,Roosevelt,(1901-1909),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPTROOSEVELT.jpg,Republican,didn't seek re-election
+27,William,Howard,Taft,(1909-1913),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPTAFT.jpg,Republican,lost re-election
+28,Woodrow,,Wilson,(1913-1921),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPWILSON.jpg,Democrat,didn't seek re-election
+29,Warren,Gamaliel,Harding,(1921-1923),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPHARDING.jpg,Republican,died in office
+30,Calvin,,Coolidge,(1923-1929),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPCOOLIDGE.jpg,Republican,didn't seek re-election
+31,Herbert,Clark,Hoover,(1929-1933),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPHOOVER.jpg,Republican,lost re-election
+32,Franklin,Delano,Roosevelt,(1933-1945),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPROOSEVELT.jpg,Democrat,died in office
+33,Harry,S.,Truman,(1945-1953),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPTRUMAN.jpg,Democrat,didn't seek re-election
+34,Dwight,David,Eisenhower,(1953-1961),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPEISENHOWER.jpg,Republican,term ended
+35,John,Fitzgerald,Kennedy,(1961-1963),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPKENNEDY.jpg,Democrat,assassinated
+36,Lyndon,Baines,Johnson,(1963-1969),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPJOHNSON.jpg,Democrat,didn't seek re-election
+37,Richard,Milhous,Nixon,(1969-1974),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPNIXON.jpg,Republican,resigned
+38,Gerald,Rudolph,Ford,(1974-1977),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPFORD.jpg,Republican,lost election
+39,James,Earl,Carter,(1977-1981),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPCARTER.jpg,Democrat,lost re-election
+40,Ronald,Wilson,Reagan,(1981-1989),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPREAGAN.jpg,Republican,term ended
+41,George,Herbert Walker,Bush,(1989-1993),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PPHWBUSH.jpg,Republican,lost re-election
+42,William,Jefferson,Clinton,(1993-2001),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP42CLINTON.jpg,Democrat,term ended
+43,George,Walker,Bush,(2001-2009),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP43BUSH.jpg,Republican,term ended
+44,Barack,Hussein,Obama,(2009-2017),https://www.presidentialelection.com/wp-content/uploads/2017/02/C091-PP44OBAMA.jpg,Democrat,term ended
+45,Donald,John,Trump,(2017- ),https://petapixel.com/assets/uploads/2017/01/Donald_Trump_official_portraitt.jpg,Republican,current president
