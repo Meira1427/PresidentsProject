@@ -1,11 +1,14 @@
 package com.meirapentermann.pres.web;
 
 import java.io.IOException;
+import java.util.List;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+import com.meirapentermann.presidents.President;
 import com.meirapentermann.presidents.PresidentDAO;
 import com.meirapentermann.presidents.PresidentFileDAO;
 
@@ -15,7 +18,6 @@ import com.meirapentermann.presidents.PresidentFileDAO;
 @WebServlet("/PresidentServlet")
 public class PresidentServlet extends HttpServlet {
 	private PresidentFileDAO dao;
-	private int i = 1;
 
 	public void init() throws ServletException {
 		dao = new PresidentFileDAO(getServletContext());
@@ -23,6 +25,18 @@ public class PresidentServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+		
+		HttpSession session = request.getSession();
+		
+		Integer i = (Integer)session.getAttribute("i");
+		if(i==null) {
+			i = 1;
+		}
+		
+		List<President> current = (List<President>)session.getAttribute("current");
+		if(current==null) {
+			current = dao.getFullList();
+		}
 
 		try {
 			if ((isNotNullOrEmpty(request.getParameter("selection")))){
@@ -30,28 +44,28 @@ public class PresidentServlet extends HttpServlet {
 				String userInput = request.getParameter("selection");
 				switch(radioButton) {
 				case "lastname":
-					dao.setCurrent(dao.filterByLastName(userInput));
-					if (dao.getCurrent().size() == 0) {
-						dao.setCurrent(dao.getFullList());
+					current = dao.filterByLastName(userInput);
+					if (current.size() == 0) {
+						current = dao.getFullList();
 					}
 					i = 1;
 					break;
 				case "firstname":
-					dao.setCurrent(dao.filterByFirstName(userInput));
-					if (dao.getCurrent().size() == 0) {
-						dao.setCurrent(dao.getFullList());
+					current = dao.filterByFirstName(userInput);
+					if (current.size() == 0) {
+						current = dao.getFullList();
 					}
 					i = 1;
 					break;
 				case "party":
-					dao.setCurrent(dao.filterByParty(userInput));
-					if (dao.getCurrent().size() == 0) {
-						dao.setCurrent(dao.getFullList());
+					current = dao.filterByParty(userInput);
+					if (current.size() == 0) {
+						current = dao.getFullList();
 					}
 					i = 1;
 					break;
 				case "term":
-					dao.setCurrent(dao.getFullList());
+					current = dao.getFullList();
 					i = Integer.parseInt(userInput);
 					if (i <= 0 || i > (dao.getFullList().size())) {
 						i = 1;
@@ -62,11 +76,11 @@ public class PresidentServlet extends HttpServlet {
 				}
 			} 
 			else if ((isNotNullOrEmpty(request.getParameter("full")))) {
-				dao.setCurrent(dao.getFullList());
+				current = dao.getFullList();
 				i = 1;
 			}
 			else if (isNotNullOrEmpty(request.getParameter("next"))) {
-				if (i == dao.getCurrent().size()) {
+				if (i == current.size()) {
 					i = 1;
 				} 
 				else {
@@ -75,7 +89,7 @@ public class PresidentServlet extends HttpServlet {
 			} 
 			else if (isNotNullOrEmpty(request.getParameter("previous"))) {
 				if (i == 1) {
-					i = dao.getCurrent().size();
+					i = current.size();
 				} else {
 					--i;
 				}
@@ -85,7 +99,9 @@ public class PresidentServlet extends HttpServlet {
 			i = 1;
 		}
 
-		request.setAttribute("currentPresident", dao.getCurrent().get(i-1));
+		session.setAttribute("i", i);
+		session.setAttribute("current", current);
+		session.setAttribute("currentPresident", current.get(i - 1));
 		request.getRequestDispatcher("/presidentdisplay.jsp").forward(request, response);
 
 	}

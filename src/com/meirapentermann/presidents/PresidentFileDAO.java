@@ -13,13 +13,11 @@ public class PresidentFileDAO implements PresidentDAO {
 	private static final String filename = "WEB-INF/presidents.txt";
 	private ServletContext servletContext;
 	private List<President> presidents;
-	private List<President> current;
 	
 	public PresidentFileDAO(ServletContext context) {
 		servletContext = context;
 		presidents = new ArrayList<>();
 		loadPresidentsFromFile();
-		current = presidents;
 	}
 
 //PresidentOBJ(String party, String name, String image, String factoid, int termNum) {
@@ -57,14 +55,6 @@ public class PresidentFileDAO implements PresidentDAO {
 
 	public void setPresidents(List<President> presidents) {
 		this.presidents = presidents;
-	}
-
-	public List<President> getCurrent() {
-		return current;
-	}
-
-	public void setCurrent(List<President> current) {
-		this.current = current;
 	}
 	
 	public List<President> filterByLastName(String last) {
